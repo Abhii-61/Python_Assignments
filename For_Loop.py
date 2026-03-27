@@ -255,6 +255,10 @@ Print:
   ******* 
 ********* 
 
+for i in range(9,0,-2):
+    for j in range(i):
+        print("*", end ="")
+    print()
 
 
 
@@ -279,10 +283,6 @@ Print a star pattern.
 Stop printing when the row number reaches 4.
 """
 
-for i in range(9,0,-2):
-    for j in range(i):
-        print("*", end ="")
-    print()
 
 
 
